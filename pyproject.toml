@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypkg"
+authors = [{name = "Joaquin Sureda", email = "joaquin.m.sureda@durham.ac.uk"},
+]
+description = "My package to test workflows"
+version = "0.1"
+dependencies = [
+  "numpy", 
+  "nbformat",
+  "nbconvert",
+  "jupyter",
+  ]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "mypkg"
+]
+

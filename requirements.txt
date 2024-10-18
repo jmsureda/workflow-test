@@ -1,4 +1,0 @@
-numpy
-nbformat
-nbconvert
-jupyter
