@@ -19,4 +19,7 @@ dependencies = [
 pythonpath = [
   ".", "mypkg"
 ]
+filterwarnings = [
+  "ignore:::jupyter_client.connect:22", # jupyter client deprecation warning 
+]
 
